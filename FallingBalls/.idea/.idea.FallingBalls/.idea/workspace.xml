@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c513fcbb-1b3b-470d-b25e-6f26e78b4eb2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/MessageComponent.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerClickHandlerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/PoolComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/PoolFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/HelpfulFunction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/Pool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Package/ECS/ecs-master/src/EcsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/TargetDamageableComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehavior/PlayerView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/DamageableBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/BoundsCheckerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/DestroyEntitySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyOutOfRange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerDamageable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ColorComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ModelComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Events/EventHitEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Events/EventResetComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Events/EventDestroyEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Events/EventChangeCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Events/EventChangeHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Events/EventSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/CounterHandlerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/ChangerComplexityGameSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/TextScoreComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ScoreMessageComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/CounterComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/CounterSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/ScoreTextUpdater.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/DestroyEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SpawnEntitySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IUIText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/MessageComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SetterUITextSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/UITextComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/HittingEnemySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventsBus/EventBus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehavior/PauseMenuHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/HealthCheckerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/CalculatorBoundsScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/EnemyFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/HealthComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/HealthBarComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehavior/Startup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/HealthBarSystems.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/ResetComponentSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyReset.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SwitcherComplexityGameSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/PlayerFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/InitFactorySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/Constants.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MoEw79lQj4Dl3KhizFvQd6Zg9w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\FallingBalls.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\games\FallingBalls\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c513fcbb-1b3b-470d-b25e-6f26e78b4eb2" name="Default Changelist" comment="" />
+      <created>1678425789136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678425789136</updated>
+      <workItem from="1678425790152" duration="4584000" />
+      <workItem from="1678448655633" duration="7925000" />
+      <workItem from="1678512491245" duration="32375000" />
+      <workItem from="1678606894506" duration="14471000" />
+      <workItem from="1678633193494" duration="10689000" />
+      <workItem from="1678707214036" duration="11087000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1678719959432">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1678719959432" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1678709211096">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1678709211096" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1678717492320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1678717492320" />
+  </component>
+</project>
