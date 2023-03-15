@@ -1,13 +1,12 @@
+using System.Linq;
 using Systems;
 using Components.Events;
+using Containers;
 using EnemyScripts;
 using EventsBus;
 using Helper;
 using Leopotam.Ecs;
-using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
-using UnityEngine.UI;
 
 namespace Monobehavior
 {
@@ -27,25 +26,15 @@ namespace Monobehavior
 
         private readonly DamageableBehavior _damageableBehavior = new DamageableBehavior();
 
-        [SerializeField] private Image fillBackImage;
-
-        [SerializeField] private Image fillFrontImage;
-        
-        [SerializeField] private TMP_Text scoreText;
-
-        [SerializeField] private TMP_Text recordScoreText;
-
-        [SerializeField] private TMP_Text destroyedBallsText;
-
         [SerializeField] private PauseMenuHandler pauseMenuHandler;
 
         [SerializeField] private GameObject gameOverMenuGO;
 
-        [SerializeField] private Texture2D cursorTexture;
-        
+        [SerializeField] private ContainerUI containerUI;
 
         private void Awake()
         {
+            Constants.ResetStaticVariables();
             EventBus.PlayerCreated += OnCreatePlayer;
 
             _world = new EcsWorld();
@@ -69,17 +58,13 @@ namespace Monobehavior
 
         private void Start()
         {
-            Constants.ResetStaticVariables();
+            containerUI.recordScoreText.SetText("You Record: " + PlayerPrefs.GetInt("RecordScore", 0));
 
-            recordScoreText.SetText("You Record: " + PlayerPrefs.GetInt("RecordScore", 0));
-
-            Cursor.SetCursor(cursorTexture, Vector2.zero, CursorMode.ForceSoftware);
+            Cursor.SetCursor(containerUI.cursorTexture, Vector2.zero, CursorMode.ForceSoftware);
         }
 
-        private void OnDisable()
-        {
+        private void OnDisable() => 
             EventBus.PlayerCreated -= OnCreatePlayer;
-        }
 
         private void Update()
         {
@@ -120,10 +105,16 @@ namespace Monobehavior
 
         private void AddSystems()
         {
-            _initSystem.Add(new InitFactorySystem(_enemyPool, _damageableBehavior, fillBackImage, fillFrontImage,  scoreText,
-                recordScoreText, destroyedBallsText, gameOverMenuGO,
-                _calculatorBoundsScreen.TopLeftPosition + Constants.LeftOffsetSpawn,
-                _calculatorBoundsScreen.TopRightPosition + Constants.RightOffsetSpawn));
+            _initSystem
+                .Add(new PlayerInitSystem(containerUI.fillBackImage,
+                    containerUI.fillFrontImage,
+                    containerUI.scoreText,
+                    containerUI.recordScoreText, containerUI.destroyedBallsText, gameOverMenuGO))
+                .Add(new InitEnemySystem(_enemyPool, _damageableBehavior,
+                    _calculatorBoundsScreen.TopLeftPosition + Constants.LeftOffsetSpawn,
+                    _calculatorBoundsScreen.TopRightPosition + Constants.RightOffsetSpawn))
+                .Add(new PoolInitSystem(_enemyPool));
+
 
             _systemUpdate
                 .Add(new SpawnEntitySystem())

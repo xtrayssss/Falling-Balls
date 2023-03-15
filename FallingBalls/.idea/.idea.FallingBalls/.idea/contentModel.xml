@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\stepa\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\stepa\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_FallingBalls.658038069.00" t="ExcludeRecursive" />
-    <e p="D:\games\FallingBalls" t="IncludeRecursive">
+    <e p="C:\Users\stepa\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_FallingBalls.-8731161.00" t="ExcludeRecursive" />
+    <e p="D:\games\Falling-Balls\FallingBalls" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Package" t="Include">
@@ -78,6 +78,9 @@
             <e p="TimerComponent.cs" t="Include" />
             <e p="UITextComponent.cs" t="Include" />
           </e>
+          <e p="Containers" t="Include">
+            <e p="ContainerUI.cs" t="Include" />
+          </e>
           <e p="EnemyScripts" t="Include">
             <e p="AddingScore.cs" t="Include" />
             <e p="DamageableBehavior.cs" t="Include" />
@@ -114,6 +117,7 @@
             <e p="PlayerInputHandler.cs" t="Include" />
             <e p="PlayerView.cs" t="Include" />
             <e p="Startup.cs" t="Include" />
+            <e p="TestScriptbleObject.cs" t="Include" />
           </e>
           <e p="PlayerScripts" t="Include">
             <e p="PlayerDamageable.cs" t="Include" />
@@ -130,9 +134,11 @@
             <e p="HealthBarSystems.cs" t="Include" />
             <e p="HealthCheckerSystem.cs" t="Include" />
             <e p="HittingEnemySystem.cs" t="Include" />
-            <e p="InitFactorySystem.cs" t="Include" />
+            <e p="InitEnemySystem.cs" t="Include" />
             <e p="PlayerClickHandlerSystem.cs" t="Include" />
+            <e p="PlayerInitSystem.cs" t="Include" />
             <e p="PlayerInputSystem.cs" t="Include" />
+            <e p="PoolInitSystem.cs" t="Include" />
             <e p="ResetComponentSystem.cs" t="Include" />
             <e p="SetterUITextSystem.cs" t="Include" />
             <e p="SpawnEntitySystem.cs" t="Include" />

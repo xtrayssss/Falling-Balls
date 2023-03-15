@@ -10,10 +10,8 @@ namespace Factories
     {
         private readonly Pool _poolEnemy;
 
-        public PoolFactory(Pool poolEnemy)
-        {
+        public PoolFactory(Pool poolEnemy) => 
             _poolEnemy = poolEnemy;
-        }
 
         public void CreateEntity(EcsWorld world)
         {

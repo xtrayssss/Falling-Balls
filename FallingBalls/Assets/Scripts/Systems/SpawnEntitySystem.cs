@@ -2,6 +2,7 @@
 using Components;
 using Components.Events;
 using Leopotam.Ecs;
+using TMPro.Examples;
 
 namespace Systems
 {
@@ -48,6 +49,13 @@ namespace Systems
                     entity.Get<EventResetComponent>();
                 }
             }
+        }
+    }
+
+    internal class BossSpawnSystem : IEcsRunSystem
+    {
+        public void Run()
+        {
         }
     }
 }

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c513fcbb-1b3b-470d-b25e-6f26e78b4eb2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -7,28 +25,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/MessageComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24D45E81-3E52-4A99-BFB7-A145158A7980/31/86f9f615/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerClickHandlerSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/PoolComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/PoolFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/HelpfulFunction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Helper/Pool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Package/ECS/ecs-master/src/EcsSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/TargetDamageableComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehavior/PlayerView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/DamageableBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/BoundsCheckerSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/DestroyEntitySystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyOutOfRange.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerDamageable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ColorComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ModelComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Events/EventHitEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Events/EventResetComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Events/EventDestroyEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Events/EventChangeCounter.cs" />
@@ -42,7 +48,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/CounterSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/ScoreTextUpdater.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/DestroyEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SpawnEntitySystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IUIText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/MessageComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SetterUITextSystem.cs" />
@@ -56,18 +61,36 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Factories/EnemyFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/HealthComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/HealthBarComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehavior/Startup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/HealthBarSystems.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/ResetComponentSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyReset.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SwitcherComplexityGameSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Factories/PlayerFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/InitFactorySystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Helper/Constants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehavior/EntityView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/InitFactorySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerInitFactorySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerInitSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Factories/PoolFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/InitEnemySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastracture/States/StateManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastracture/States/DefaultGameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastracture/States/PausedGameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastracture/States/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastracture/States/BootStrapState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Containers/ContainerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IRegistersSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastracture/Registrations/BootStrapRegister.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastracture/States/GameStateManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Package/ECS/ecs-master/src/EcsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monobehavior/Startup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PoolInitSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/SpawnEntitySystem.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2MoEw79lQj4Dl3KhizFvQd6Zg9w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -120,6 +143,11 @@
       <workItem from="1678606894506" duration="14471000" />
       <workItem from="1678633193494" duration="10689000" />
       <workItem from="1678707214036" duration="11087000" />
+      <workItem from="1678764932759" duration="3859000" />
+      <workItem from="1678775663329" duration="130000" />
+      <workItem from="1678776307538" duration="11319000" />
+      <workItem from="1678863581186" duration="1411000" />
+      <workItem from="1678880982650" duration="638000" />
     </task>
     <servers />
   </component>
@@ -128,21 +156,37 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="498" height="446" key="SwitcherDM" timestamp="1678719959432">
+    <state x="601" y="129" key="RiderGenerateDialog" timestamp="1678779828368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1678719959432" />
+    <state x="601" y="129" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1678779828368" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1678881276076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1678881276076" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1678709211096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1678709211096" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1678717492320">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1678787302668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1678717492320" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1678787302668" />
   </component>
 </project>
